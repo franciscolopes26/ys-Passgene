@@ -17,12 +17,13 @@ if lower:
     palavra_chave += letras_lowercase
 if nums:
     palavra_chave += digitos
-if syms:
-    palavra_chave += simblos
 
-    length =15
-    ammount=10
 
-for x in range(ammount):
-    password="".join(random.sample(palavra_chave,length))
-    print(password)
+    comprimento =10
+
+    quantidade=1
+
+for x in range(quantidade):
+    password = "".join(random.sample(palavra_chave,comprimento))
+
+print(password)
